@@ -4,7 +4,7 @@ import AnimatedContent from '../ui/Animations/AnimatedContent/AnimatedContent'
 const Work = () => {
   return (
     
-    <div className='mt-16 px-10 flex flex-col  gap-10 border-b-2 border-gray-300'>
+    <div className='px-10 flex flex-col  gap-10 border-b-2 border-gray-300'>
        <AnimatedContent
           distance={150}
           direction="horizontal"

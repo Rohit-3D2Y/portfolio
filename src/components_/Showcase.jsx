@@ -13,17 +13,17 @@ const Showcase = () => {
   <div className="border-2 border-gray-300 flex flex-col items-center p-5 rounded-lg">
     <div className="w-full max-w-2xl overflow-hidden rounded-md">
       <img
-        src="/assets/proj1.jpeg"
-        alt="Aero Landing Page"
+        src="/assets/nexa.png"
+        alt="Nexacrft's Website "
         className="w-full h-auto object-contain"
       />
     </div>
     <div className="flex flex-col items-start gap-3 mt-5 w-full max-w-2xl">
-      <h2 className="text-md md:text-2xl font-semibold inria-sans-bold tracking-tighter">Aero Landing Page Design</h2>
-      <p className="text-gray-600 inria-sans-regular tracking-tight text-[10px] md:text-base">
-        This project focuses on the design and development of a comprehensive AI chatbot platform, Aero.
+      <h2 className="text-lg md:text-2xl font-semibold inria-sans-bold tracking-tighter">Nexacrft's Website</h2>
+      <p className="text-gray-600 inria-sans-regular tracking-tight text-md md:text-base">
+        This project focuses on the design and development of a digital services agency excelling in various fields.
       </p>
-      <a href='https://www.plusslabs.com' target='blank' className="mt-2 text-[10px] md:text-base text-black bg-gray-200 p-3 rounded-2xl inria-sans-regular hover:underline font-semibold" >
+      <a href='https://nexacrft.com' target='blank' className="mt-2 text-md md:text-base text-black bg-gray-200 p-3 rounded-2xl inria-sans-regular hover:underline font-semibold" >
         View Project &gt;
       </a>
     </div>
@@ -38,11 +38,11 @@ const Showcase = () => {
       />
     </div>
     <div className="flex flex-col items-start gap-3 mt-5 w-full max-w-2xl">
-      <h2 className="text-md md:text-2xl font-semibold inria-sans-bold tracking-tighter">Aero Landing Page Design</h2>
-      <p className="text-gray-600 inria-sans-regular tracking-tight text-[10px] md:text-base">
-        This project focuses on the design and development of a comprehensive AI chatbot platform, Aero.
+      <h2 className="text-lg md:text-2xl font-semibold inria-sans-bold tracking-tighter">Pluss labs Website</h2>
+      <p className="text-gray-600 inria-sans-regular tracking-tight text-md md:text-base">
+        This project focuses on the design and development of a pharmaceutical startup excelling in lab tests and data handling.
       </p>
-      <a href='https://www.plusslabs.com' target='blank' className="mt-2 text-[10px] md:text-base text-black bg-gray-200 p-3 rounded-2xl inria-sans-regular hover:underline font-semibold" >
+      <a href='https://www.plusslabs.com' target='blank' className="mt-2 text-md md:text-base text-black bg-gray-200 p-3 rounded-2xl inria-sans-regular hover:underline font-semibold" >
         View Project &gt;
       </a>
     </div>

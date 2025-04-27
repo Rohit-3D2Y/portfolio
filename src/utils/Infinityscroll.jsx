@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function InfiniteIconScroller() {
   return (
-    <div className="w-[120px] h-16 overflow-hidden relative rounded bg-white flex items-center">
+    <div className="w-[120px] h-16 overflow-hidden relative rounded  flex items-center">
       <div className="flex animate-scroll whitespace-nowrap">
         {/* Group 1 */}
         {icons.map((path, idx) => (
