@@ -7,7 +7,7 @@ const Work = () => {
     <div className='px-10 flex flex-col  gap-10 border-b-2 border-gray-300'>
        <AnimatedContent
           distance={150}
-          direction="horizontal"
+          direction="vertical"
           reverse={false}
           config={{ tension: 80, friction: 20 }}
           initialOpacity={0}
