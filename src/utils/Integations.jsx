@@ -56,7 +56,7 @@ const Integrations = ({ data, reverse = false }) => {
           >
             <div className="p-4 rounded-3xl bg-[#f3f3f3] relative">
               <div className="absolute top-0 left-3 text-[#bbbcbe]">o</div>
-              <div className="flex justify-center bg-transparent p-2 rounded-3xl">
+              <div className="flex justify-center bg-slate-200 p-2 rounded-3xl">
                 <img
                   className="rounded-3xl border-2 border-slate-300 h-[250px] w-[400px] object-contain"
                   src={tool.icon}
