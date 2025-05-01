@@ -22,7 +22,7 @@ const App = () => {
         <Navbar />
         </div>
         <Landing />
-        <Project />
+        {/* <Project /> */}
        </div>
     </div>
      <div className='px-0 md:px-[10%] lg:px-[25%]'>
