@@ -16,7 +16,7 @@ const App = () => {
     <>
     <SplashCursor />
     <Analytics />
-    <div className='px-0 md:px-[10%] lg:px-[25%]'>
+    <div className='px-0 md:px-[10%] lg:px-[25%] overflow-x-hidden'>
        <div className='border-r-2 border-l-2 border-slate-200  md:px-10'>
         <div className='p-2'>
         <Navbar />
