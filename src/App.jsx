@@ -7,6 +7,7 @@ import Navbar from './components_/Navbar'
 import Work from './components_/Work'
 import Showcase from './components_/Showcase'
 import Expertise from './components_/Expertise'
+import Contact from './components_/Contact'
 const App = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const App = () => {
           <Showcase />
           <Work />
           <Expertise />
+          <Contact />
        </div>
     </div>
     </>
