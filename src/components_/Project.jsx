@@ -26,7 +26,7 @@ const tools = [
 
 const Project = () => {
   return (
-    <div className=" py-8 overflow-hidden">
+    <div className=" py-8 overflow-x-clip">
       <div className="w-full">
         <Integrations data={tools} />
       </div>
