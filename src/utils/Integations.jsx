@@ -43,10 +43,10 @@ const Integrations = ({ data, reverse = false }) => {
   const extendedData = [...data, ...data, ...data];
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden  px-4 ">
       <div
         ref={scrollerRef}
-        className="flex gap-4 pb-4 px-4 overflow-x-scroll scrollbar-hide"
+        className="flex gap-4 pb-4 overflow-x-scroll scrollbar-hide"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {extendedData.map((tool, index) => (
@@ -56,7 +56,7 @@ const Integrations = ({ data, reverse = false }) => {
           >
             <div className="p-4 rounded-3xl bg-[#f3f3f3] relative">
               <div className="absolute top-0 left-3 text-[#bbbcbe]">o</div>
-              <div className="flex justify-center bg-slate-200 p-2 rounded-3xl">
+              <div className="flex justify-center bg-slate-200 p-2 rounded-3xl overflow-x-clip">
                 <img
                   className="rounded-3xl border-2 border-slate-300 h-[250px] w-[400px] object-contain"
                   src={tool.icon}
